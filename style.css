@@ -1,0 +1,134 @@
+@charset "UTF-8";
+* {
+  font-family: 微軟正黑體;
+}
+
+body {
+  height: 1000px;
+}
+
+.h1, .h4, h1, h4, h2, h3 {
+  font-weight: bold;
+}
+
+nav.navbar {
+  transition-duration: 0.5s;
+}
+
+nav.navbar.navbar-default.navbar-fixed-top.navbar-top {
+  background-color: transparent;
+}
+nav.navbar.navbar-default.navbar-fixed-top.navbar-top a {
+  transition-duration: 0.5s;
+}
+nav.navbar.navbar-default.navbar-fixed-top.navbar-top a:hover {
+  color: #ff6e3a;
+}
+
+header.jumbotron {
+  text-align: center;
+  background-color: #fff;
+  background-image: url(https://aomiwang.com/sites/default/files/styles/zdy/public/field/image/0D6PSZ0h.jpeg?itok=vWPLVsBs);
+  background-size: cover;
+  background-attachment: fixed;
+  margin-bottom: 0px;
+}
+header.jumbotron .container {
+  padding: 200px 0px;
+}
+header.jumbotron hr {
+  border: solid 2px #C48B3B;
+  max-width: 70px;
+}
+header.jumbotron h1 {
+  color: #fff;
+}
+header.jumbotron h4 {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+section {
+  padding: 50px 0px;
+}
+
+section#section_ask {
+  background-color: #C48B3B;
+}
+section#section_ask .col-sm-5.img {
+  height: 300px;
+  background-image: url(https://www.booklife.com.tw/upload_files/booklife/website/g0200021%20-c2.jpg);
+  mix-blend-mode: multiply;
+}
+section#section_ask .col-sm-7.text {
+  margin-top: 90px;
+}
+
+section#section_about img {
+  width: 160%;
+}
+section#section_about .img_wrap {
+  height: 200px;
+  overflow: hidden;
+}
+
+section#section_story {
+  background-color: #222;
+  color: #fff;
+  padding: 0px;
+}
+section#section_story .col-sm-5.map {
+  background-image: url(https://stutzfamily.com/mrstutz/Maps/USHistory/europe1938.gif);
+  height: 400px;
+  background-size: 100% auto;
+}
+section#section_story .col-sm-5.map .cross {
+  color: red;
+  font-size: 25px;
+  position: absolute;
+  top: 40%;
+  left: 20%;
+  font-weight: bold;
+}
+section#section_story .col-sm-7 {
+  text-align: center;
+}
+section#section_story .col-sm-7 i {
+  font-size: 40px;
+}
+section#section_story .col-sm-12.features {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+section#section_feature .col-sm-6.pic img {
+  width: 100%;
+}
+section#section_feature i {
+  font-size: 30px;
+}
+section#section_feature .col-sm-6 {
+  padding-top: 20px;
+}
+
+footer.jumbotron {
+  text-align: center;
+  background-color: #fff;
+  background-image: url(http://v.wxrw123.com/?url=http://mmbiz.qpic.cn/mmbiz/5feXIiajDItf8T2YZoxCuVrhFMrVibfeZ8KGD7No9nL7bCUtpviblEmIia4okbL7aHqTNdGd4zWmcO83WfxVNZvibbg/0?wx_fmt=jpeg);
+  background-size: cover;
+  background-attachment: fixed;
+  margin-bottom: 0px;
+}
+footer.jumbotron .container {
+  padding: 100px 0px;
+  color: #fff;
+}
+footer.jumbotron hr {
+  border: solid 2px #C48B3B;
+  max-width: 70px;
+}
+footer.jumbotron input {
+  max-width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: transparent;
+}
